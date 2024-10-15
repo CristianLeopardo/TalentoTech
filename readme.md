@@ -1,1 +1,1 @@
-Se realiza una página web usando imagenes y maquetado para poder ir agregando cosas
+Es una web para un emprendimiento familiar, la cual va a mostrar datos de contactos, ofertas, productos, y a su vez va a tener un perfil de admin el cual va a poder manejar listas de precios y ofertas.
