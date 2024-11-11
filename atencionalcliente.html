@@ -31,32 +31,34 @@
         <h2 class="espacio">Podes encontrarnos en:</h2>
         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3287.8113662262595!2d-58.58220334264598!3d-34.50766620021315!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcbb0132191297%3A0x318e71b9c7935b3d!2sDep%C3%B3sito%20Leopardo!5e0!3m2!1ses-419!2sar!4v1727471119836!5m2!1ses-419!2sar" width="400" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         <h2 class="espacio">Ó deje sus datos y nos contactaremos</h2>
-        <form action="index.html">
-            <fieldset>
-            <label>Nombre:</label>
-            <input type="text" placeholder="inserte el nombre" required>
-            <br>    
+        <form action="index.html" >
+            <fieldset class="grid">
+                <label>Nombre:</label>
+                <input type="text" placeholder="Ingrese su nombre" required>
+             
             <label>Apellido:</label>
-            <input type="text" placeholder="inserte el apellido">
-            <br>
+            <input type="text" placeholder="Ingrese su apellido">
+            
             <label>Email:</label>
-            <input type="email" placeholder="inserte el email" required>
-            <br>
+            <input type="email" placeholder="Ingrese su email" required>
+            
             <label>Telefono:</label>
-            <input type="text" placeholder="inserte el telefono" required>
-            <br>
+            <input type="text" placeholder="Ingrese su telefono" required>
+            
             <label>Consulta:</label>
-            <textarea rows="5" cols="40" placeholder="escriba su conusulta...""></textarea>
-            <br>
-            <label>Metodo de contacto:</label>
-            <input type="radio" name="opcion" value="1"> Email
-            <input type="radio" name="opcion" value="2"> Correo electrónico
-            <br>
+            <textarea rows="5" cols="40" placeholder="Escriba su conusulta...""></textarea>
+            
+            <div><label>Metodo de contacto:</label></div>
+            <div><input type="radio" name="opcion" value="1"> Email
+            <input type="radio" name="opcion" value="2"> Telefono</div>
+           
             <label>Fecha de contacto:</label>
             <input type="date">
             <br>
+            <div>
             <input type= "submit" value="Enviar">
             <input type="reset" value="Borrar">
+        </div>
         </fieldset>
         </form>
     </section>
