@@ -28,6 +28,17 @@ header{
     text-align: center;
 }
 
+a{
+    text-decoration: none;
+    color:black;
+}
+
+.link{
+    text-decoration:underline;
+    color: blue;
+}
+
+
 
 nav{
     background-color: #82e0aa;
@@ -73,6 +84,20 @@ td, tr, th{
     margin-bottom: 25px;
 }
 
+ul{
+    display: flex;
+    justify-content: center;
+}
+
+li{
+    margin-top: 5px;
+    margin-left: 5px;
+    border:solid green 2px;
+    border-radius: 15px;
+    background-size: cover;
+    background-color: #d5f5e3dd ;
+}
+
 
 
 .oferta{
@@ -102,6 +127,22 @@ h2{
     color: rgb(204, 87, 87);
 }
 
+@media(max-width: 1520px)
+{
+    nav{
+        height: 75px;
+    }
+   
+}
+
+@media(max-width: 1120px)
+{
+    nav{
+        height: 100px;
+    }
+   
+}
+
 @media (max-width: 720px)
 {
     .contenedor{
@@ -110,7 +151,7 @@ h2{
     }
     .cajas{
         margin-top: 30px;
-    }
+    } 
 
-    
 }
+
