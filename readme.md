@@ -6,7 +6,7 @@ Punto 1: se aplica todo lo solicitado
 Punto 2: se aplica todo solicitado, formspree en contacto clientes
 Punto 3: se aplica todo lo solicitado
 Punto 4: se usa flexbox en el index y pagina novedades.
-         se usa media querys en index y pagina novedades.
+         se usa media querys en el nav, index y pagina novedades.
          se usa grid en la seccion contacto clientes
 Punto 5: se aplica todo lo solicitado
 Punto 6: se aplica todo lo solicitado
