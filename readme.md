@@ -3,7 +3,7 @@ Es una web para un emprendimiento familiar, la cual va a mostrar datos de contac
 Notas para la pre-entrega
 
 Punto 1: se aplica todo lo solicitado
-Punto 2: se aplica todo menos FORMSPARE
+Punto 2: se aplica todo solicitado, formspree en contacto clientes
 Punto 3: se aplica todo lo solicitado
 Punto 4: se usa flexbox en el index y pagina novedades.
          se usa media querys en index y pagina novedades.

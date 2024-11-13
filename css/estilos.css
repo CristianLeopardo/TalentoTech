@@ -31,6 +31,7 @@ header{
 a{
     text-decoration: none;
     color:black;
+    line-height: 2.3;
 }
 
 .link{
@@ -39,10 +40,9 @@ a{
 }
 
 
-
 nav{
     background-color: #82e0aa;
-    height: 50px;
+    height: 75px;
     text-align: center;
 }
 table{
@@ -85,17 +85,24 @@ td, tr, th{
 }
 
 ul{
+    
+}
+
+li{
     display: flex;
     justify-content: center;
 }
 
-li{
-    margin-top: 5px;
+.boton{
+    
     margin-left: 5px;
+    padding: 5px;
     border:solid green 2px;
     border-radius: 15px;
     background-size: cover;
     background-color: #d5f5e3dd ;
+    white-space:nowrap
+    
 }
 
 
@@ -135,10 +142,10 @@ h2{
    
 }
 
-@media(max-width: 1120px)
+@media(max-width: 920px)
 {
     nav{
-        height: 100px;
+        height: 110px;
     }
    
 }
